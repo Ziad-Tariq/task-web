@@ -1,0 +1,154 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 0%;
+    color: rgb(65, 65, 65);
+}
+
+.navbar ul {
+    list-style: none;
+    background: rgb(65, 65, 65);
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-top: -6px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    width: 80px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+    .navbar a:hover {
+        background: #190086;
+    }
+
+.Main-img {
+    /* The image used */
+    background-image: url("/img/Banner.jpg");
+    min-height: 800px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.textpic {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 17px;
+    left: 480px;
+    color: rgb(255, 255, 255);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 85px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.arrival {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    text-align: center;
+    font-size: 40px;
+}
+
+.alar {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.column {
+    float: left;
+    width: 43.33%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer {
+    margin-top: 150px;
+    width: 950px;
+    padding: 100px 15%;
+    background: rgb(0, 6, 90);
+    color: #efefef;
+    display: flex;
+}
+
+    .footer div {
+        text-align: center;
+    }
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.footer div h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a {
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
